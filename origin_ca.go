@@ -59,7 +59,7 @@ type originCACertificateResponseRevoke struct {
 func (api *API) CreateOriginCertificate(certificate OriginCACertificate) (*OriginCACertificate, error) {
 	uri := "/certificates"
 	res, err := api.makeRequestWithAuthType(context.TODO(), "POST", uri, certificate, AuthUserService)
-	fmt.Println(res)
+	fmt.Println(string(res))
 	if err != nil {
 		return nil, errors.Wrap(err, errMakeRequestError)
 	}
