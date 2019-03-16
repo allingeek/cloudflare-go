@@ -3,6 +3,7 @@ package cloudflare
 import (
 	"context"
 	"encoding/json"
+	"fmt"
 	"net/url"
 
 	"github.com/pkg/errors"
