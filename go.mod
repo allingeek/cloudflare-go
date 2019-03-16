@@ -1,4 +1,4 @@
-module github.com/cloudflare/cloudflare-go
+module github.com/allingeek/cloudflare-go
 
 require (
 	github.com/codegangsta/cli v1.20.0
